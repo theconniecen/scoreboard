@@ -1,0 +1,95 @@
+@font-face {
+  font-family: CursedTimerUlil-Aznm;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.entirething {
+    border: 10px solid;
+    border-color: black;
+    border-radius: 15px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FECDD3;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -40px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 60px;
+    color: red;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn {
+    margin: 5px;
+    font-family: CursedTimerUlil-Aznm;
+    width: 40px;
+    height: 40px;
+    background-color: #FECDD3;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.add1 {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.add2 {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.add3 {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+}
